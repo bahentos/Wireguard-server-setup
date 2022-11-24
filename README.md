@@ -70,7 +70,7 @@ systemctl status wg-quick@wg0.service
 ## Настраиваем клиента
 Создаём ключи клиента:
 ```bash
-wg genkey | tee /etc/wireguard/goloburdin_privatekey | wg pubkey | tee /etc/wireguard/goloburdin_publickey
+wg genkey | tee /etc/wireguard/bahentos_privatekey | wg pubkey | tee /etc/wireguard/bahentos_publickey
 ```
 Добавляем в конфиг сервера клиента
 ```bash
