@@ -82,7 +82,7 @@ vim /etc/wireguard/wg0.conf
 PublicKey = <client-publickey>
 AllowedIPs = 10.0.0.2/32
 ```
-Вместо <client-publickey> — заменяем на содержимое файла /etc/wireguard/goloburdin_publickey
+Вместо `<client-publickey>` — заменяем на содержимое файла /etc/wireguard/goloburdin_publickey
 
 Перезагружаем systemd сервис с wireguard:
 systemctl restart wg-quick@wg0
