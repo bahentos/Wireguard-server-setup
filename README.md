@@ -105,8 +105,8 @@ Endpoint = <SERVER-IP>:51830
 AllowedIPs = 0.0.0.0/0
 PersistentKeepalive = 20
 ```
-Здесь **<CLIENT-PRIVATE-KEY>** заменяем на приватный ключ клиента, то есть содержимое файла `/etc/wireguard/bahentos_privatekey` на сервере.
+Здесь `**<CLIENT-PRIVATE-KEY>**` заменяем на приватный ключ клиента, то есть содержимое файла `/etc/wireguard/bahentos_privatekey` на сервере.
   
-**<SERVER-PUBKEY>** заменяем на публичный ключ сервера, то есть на содержимое файла `/etc/wireguard/publickey` на сервере. <SERVER-IP> заменяем на IP сервера.
+`**<SERVER-PUBKEY>**` заменяем на публичный ключ сервера, то есть на содержимое файла `/etc/wireguard/publickey` на сервере. <SERVER-IP> заменяем на IP сервера.
 
 Этот файл открываем в Wireguard клиенте — и жмем в клиенте кнопку подключения.
