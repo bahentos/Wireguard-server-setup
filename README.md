@@ -82,7 +82,7 @@ vim /etc/wireguard/wg0.conf
 PublicKey = <client-publickey>
 AllowedIPs = 10.0.0.2/32
 ```
-Вместо `<client-publickey>` — заменяем на содержимое файла /etc/wireguard/goloburdin_publickey
+Вместо `<client-publickey>` — заменяем на содержимое файла /etc/wireguard/bahentos_publickey
 
 Перезагружаем systemd сервис с wireguard:
 systemctl restart wg-quick@wg0
@@ -90,7 +90,7 @@ systemctl status wg-quick@wg0
 ___
 На локальной машине (например, на ноутбуке) создаём текстовый файл с конфигом клиента:
 ```bash
-vim goloburdin_wb.conf
+vim bahentos_wb.conf
 ```
 Содержимое конфига:
 ```
